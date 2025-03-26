@@ -23,7 +23,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transition: filter 0.3s ease;
+    transition: filter 0.3s ease; 
 }
 
 h2 {
@@ -81,3 +81,14 @@ button:disabled:focus-visible {
     outline: none;
 }
 
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: #6e3131;
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: #cf9e9e;
+}
