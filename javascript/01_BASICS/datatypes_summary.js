@@ -40,3 +40,39 @@ console.log(typeof greet); // "function"
 
 // javascript is dynamically typed language
 // You can change the type of a variable at runtime
+
+// -------------------------------------------------------------
+
+// Stack, heap memory
+// Stack: stores primitive data types and references to objects
+// Heap: stores objects and functions(non-primitive data types)
+
+// Stack is faster than heap memory
+// Stack memory is used for static memory allocation and function calls
+// Heap memory is used for dynamic memory allocation
+// Stack memory is limited, while heap memory is larger but slower
+
+
+
+let myNane = "Kunj"
+let anothername = myNane;
+anothername="Shah"
+
+console.log(myNane); // "Kunj"
+console.log(anothername); // "Shah"
+
+
+let user={
+    email: "user@gmail.com",
+    upi:"user@sbi",
+    address: {
+        city: "Ahmedabad",
+        state: "Gujarat"
+    }
+}
+
+let anotherUser = user;
+anotherUser.email = "abc@gmail.com"
+
+console.log(user.email); 
+console.log(anotherUser.email); 
